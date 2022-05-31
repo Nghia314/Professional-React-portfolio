@@ -1,2 +1,0 @@
-(this["webpackJsonpbucket-list"]=this["webpackJsonpbucket-list"]||[]).push([[0],{10:function(t,n,e){},13:function(t,n,e){"use strict";e.r(n);var c=e(1),s=e.n(c),i=e(3),r=e.n(i),o=(e(10),e(4)),u=e.n(o),j=e(5),b=e.n(j),a=(e(11),e(0));var d=function(){return Object(a.jsxs)("div",{children:[Object(a.jsx)(u.a,{}),Object(a.jsx)(b.a,{})]})};r.a.render(Object(a.jsx)(s.a.StrictMode,{children:Object(a.jsx)(d,{})}),document.getElementById("root"))},4:function(t,n){},5:function(t,n){}},[[13,1,2]]]);
-//# sourceMappingURL=main.497c0656.chunk.js.map
