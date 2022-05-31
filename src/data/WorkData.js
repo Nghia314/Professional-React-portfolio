@@ -1,3 +1,4 @@
+// blog data
 export const Work = [
     {
         id:1,
