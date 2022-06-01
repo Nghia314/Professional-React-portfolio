@@ -9,21 +9,21 @@ const portfolio =[
         "image":"/images/artketplace.png",
         "github":"https://github.com/Nghia314/artketplace",
         "deploy":"https://artketplace.herokuapp.com"
-    }
+    },
     {
         "id":2,
         "name":"The Travel Center",
         "image":"/images/the-travel-center.png",
         "github":"https://github.com/Nghia314/the-travel-center",
         "deploy":"https://nghia314.github.io/the-travel-center/"
-    }
+    },
     {
         "id":3,
         "name":"Note Taker",
         "image":"/images/note-taker.png",
         "github":"https://github.com/Nghia314/Note-Taker",
         "deploy":"https://note-taker-aop.herokuapp.com/"
-    }
+    },
     {
         "id":4,
         "name":"E-Commerce-Backend",
