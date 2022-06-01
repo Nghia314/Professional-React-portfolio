@@ -1,55 +1,30 @@
-import React, { useState } from 'react';
-import Navtab from "../Navtab";
-import About from "../About";
-import Contact from "../Contact";
-import Portfolio from "../Portfolio";
-import Resume from "../Resume";
+import React, { Component } from "react";
+import { Route, Redirect, HashRouter } from "react-router-dom";
+import Navtab from "../Navtab/index";
+import About from "../About/index";
+import Contact from "../Contact/index";
+import Portfolio from "../Portfolio/index";
+import Resume from "../Resume/index";
 
-function Header() {
-  const [currentPage, handlePageChange] = useState("About");
+class Header extends Component {
+  render() {
+    return (
+      <HashRouter>
+        <Header>
+          <Navtab />
+        </Header>
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case "About":
-        return <About />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-
-      default:
-        return <About />;
-    }
-  };
-
-  return (
-    
-      <div>
-        <div className='head'>
-      <nav className="nav-link ">
-        <div className="text-light">
-          <a
-            className="navbar-item"
-            rel="noreferrer"
-            target="_blank"
-            href="https://github.com/Nghia314"
-          >
-            <span className="nav-title-font">Nghia Le</span>
-          </a>
+        <div className="content">
+          <Route exact path="/" render={() => <Redirect to="/about" />} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/resume" component={Resume} />
         </div>
-      </nav>
-      <Navtab
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      </div>
-      <main>
-        <div>{renderPage(currentPage)}</div>
-      </main>
-    </div>
-  );
+      </HashRouter>
+    )
+  }
 }
+
 
 export default Header;
