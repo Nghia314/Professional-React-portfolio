@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navigation from "../Navigation";
+import Navtab from "../Navtab";
 import About from "../About";
 import Contact from "../Contact";
 import Portfolio from "../Portfolio";
@@ -40,7 +40,7 @@ function Header() {
           </a>
         </div>
       </nav>
-      <Navigation
+      <Navtab
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
