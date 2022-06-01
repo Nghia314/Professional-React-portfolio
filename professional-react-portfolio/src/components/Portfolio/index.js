@@ -1,3 +1,4 @@
+
 import React from "react";
 import ProjectCards from "../Project";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,14 +21,14 @@ const portfolio =[
     {
         "id":3,
         "name":"Note Taker",
-        "image":"/images/note-taker.png",
+        "image":"/images/notetaker.png",
         "github":"https://github.com/Nghia314/Note-Taker",
         "deploy":"https://note-taker-aop.herokuapp.com/"
     },
     {
         "id":4,
         "name":"E-Commerce-Backend",
-        "image":"/images/e-commerce-backend.png",
+        "image":"/public/Images/E-commerce-backend.png",
         "github":"https://github.com/Nghia314/E-commerce-backend",
         "video":"https://www.youtube.com/watch?v=ts8AyJVCEOQ"
     }

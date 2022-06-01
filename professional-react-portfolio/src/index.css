@@ -156,7 +156,7 @@ li {
 .nav-title-font {
   font-family: 'Days One';
   font-size: 1.9em;
-  color: #042f55;
+  color: black;
   position: relative;
   top: 30px;
   padding-bottom: 20px;
@@ -206,10 +206,10 @@ textarea {
 
 .nav {
   justify-content: flex-end;
-  background-color: #c5cf33;
+  background-color: white;
 }
 .head {
-  background-color: #c5cf33;
+  background-color: white;
 }
 
 
@@ -287,7 +287,7 @@ textarea {
   display: flex; 
   align-items: center; 
   justify-content: center; 
-  background-color: #c5cf33;
+  background-color: white;
 } 
 
 .icon {
